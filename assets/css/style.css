@@ -29,8 +29,7 @@ html {
 #bs-example-navbar-collapse-1{
     
 }
-.navbar-right-custom {
-    float:right;
+#navbarNav {
     padding-top: 6px;
     padding-right: 20px;
     margin-right: 10px;
@@ -42,12 +41,29 @@ html {
 li{
     padding: 10px;    
 }
-.navbar-nav, li, a:hover {
+.navbarNav, li, a:hover {
     color: #4aaaa5;
 
 }
 
+.navbar-light, .navbar-brand {
+    color: #fff;
+}
+.port-imgs{
+    margin: 40px;
+    border: #666 2px solid;
+    width: 250px; height: 250px;
+}
+.navbar-brand {
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin-left: 30px;
 
+
+}
 .about-me-header {
     margin-bottom: 33px;
     font-family: 'Georgia', Times, Times New Roman, serif;  
